@@ -1,1 +1,0 @@
-import{ah as s}from"./index-CtK688Tv.js";const r=s.create({baseURL:"http://localhost:3000",timeout:18e4});r.interceptors.request.use(e=>e,e=>(console.error("Error en la petición:",e),Promise.reject(e)));r.interceptors.response.use(e=>e.data,e=>(console.error("Error en la respuesta:",e),e.response?.data?.message,Promise.reject(e)));export{r as s};
